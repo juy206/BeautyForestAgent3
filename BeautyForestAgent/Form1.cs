@@ -66,6 +66,18 @@ namespace BeautyForestAgent
         {
 
         }
+
+        private void BtnModify_Click(object sender, EventArgs e)
+        {
+            FormModify m = new FormModify();
+            m.ShowDialog();
+        }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            FormAdd m = new FormAdd();
+            m.ShowDialog();
+        }
     }
 
 }
