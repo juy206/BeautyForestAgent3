@@ -61,6 +61,11 @@ namespace BeautyForestAgent
             m.ShowDialog();
 
         }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
